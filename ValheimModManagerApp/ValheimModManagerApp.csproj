@@ -151,7 +151,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\UnityModManager\ValheimModManager.csproj">
+    <ProjectReference Include="..\ValheimModManager\ValheimModManager.csproj">
       <Project>{a1fcae3e-523e-4e33-8860-dd39dddf0f62}</Project>
       <Name>ValheimModManager</Name>
     </ProjectReference>

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Net.NetworkInformation;
 using System.Text.RegularExpressions;
 
-namespace UnityModManagerNet.Downloader
+namespace ValheimModManagerNet.Downloader
 {
     static class Utils
     {

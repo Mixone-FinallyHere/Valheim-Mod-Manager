@@ -13,16 +13,16 @@ using System.Xml.Serialization;
 using Ionic.Zip;
 using Newtonsoft.Json;
 
-namespace UnityModManagerNet.Downloader
+namespace ValheimModManagerNet.Downloader
 {
     public partial class DownloaderForm : Form
     {
         const string updateFile = "update.zip";
-        const string configFile = "UnityModManagerConfig.xml";
-        const string managerName = "UnityModManager";
-        const string managerFile = "UnityModManager.dll";
-        const string managerAppName = "UnityModManager";
-        const string managerAppFile = "UnityModManager.exe";
+        const string configFile = "ValheimModManagerConfig.xml";
+        const string managerName = "ValheimModManager";
+        const string managerFile = "ValheimModManager.dll";
+        const string managerAppName = "ValheimModManager";
+        const string managerAppFile = "ValheimModManager.exe";
 
         public DownloaderForm()
         {
@@ -118,7 +118,7 @@ namespace UnityModManagerNet.Downloader
                 {
                     foreach (var p in Process.GetProcessesByName(managerAppName))
                     {
-                        status.Text = "Waiting for the UnityModManager to close.";
+                        status.Text = "Waiting for the ValheimModManager to close.";
                         p.CloseMainWindow();
                         p.WaitForExit();
                     }

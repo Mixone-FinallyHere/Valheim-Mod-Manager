@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Repository>https://raw.githubusercontent.com/newman55/unity-mod-manager/master/Repository_beta_13.json</Repository>
+	<HomePage>https://www.nexusmods.com/site/mods/21/</HomePage>	
+	<GameInfo Name="Valheim">
+		<Folder>Valheim</Folder>
+		<ModsDirectory>Mods</ModsDirectory>
+		<ModInfo>Info.json</ModInfo>
+		<GameExe>valheim.exe</GameExe>
+		<EntryPoint>[UnityEngine.UIModule.dll]UnityEngine.Canvas.cctor:Before</EntryPoint>
+		<StartingPoint>[assembly_valheim.dll]FejdStartup.Awake:After</StartingPoint>
+		<GameVersionPoint>[assembly_valheim.dll]Version.GetVersionString</GameVersionPoint>
+		<MinimalManagerVersion>0.22.15</MinimalManagerVersion>
+		<ExtraFilesUrl>https://www.dropbox.com/s/n3wuttu0kwrq2t4/valheim_Data.zip?dl=1</ExtraFilesUrl>
+		<Comment>Required minimum game version 0.143.5 and unity engine 2019.4.161. Perhaps, when these versions are changed, will also have to update the manager. 
+The game can restore by checking the files via Steam.</Comment>
+	</GameInfo>
+</Config>

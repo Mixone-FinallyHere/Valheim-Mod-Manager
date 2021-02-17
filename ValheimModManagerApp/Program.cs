@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace ValheimModManagerNet.Downloader
+namespace ValheimModManagerNet.Installer
 {
     static class Program
     {
@@ -12,7 +12,7 @@ namespace ValheimModManagerNet.Downloader
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DownloaderForm());
+            Application.Run(new ValheimModManagerWindow());
         }
     }
 }

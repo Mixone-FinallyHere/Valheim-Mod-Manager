@@ -6,7 +6,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Xml.Serialization;
 
-namespace UnityModManagerNet.Downloader
+namespace ValheimModManagerNet.Downloader
 {
     public class Config
     {
